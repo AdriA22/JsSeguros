@@ -1,0 +1,104 @@
+<html lang="es">
+
+<head>
+    <link rel="shortcut icon" href="../img/auto-30.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguro Automotor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Mono:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilo-autom.css">
+</head>
+
+<body>
+
+    <div class="content">
+
+        <h1 class="logo"> <img src="../img/auto-30.png" alt=""> Seguro Automotor</h1>
+        <hr size=2 color="#ffc107">
+        <br>
+        <div class="contenedor">
+            <div class="contenedor-form">
+                <h3>Contáctanos</h3>
+                <hr size=2 color="#ffc107">
+                <form action="https://formsubmit.co/adriasuarez79@gmail.com" method="POST">
+                    <p>
+                        <label>Nombre y Apellido</label>
+                        <input type="text" name="nombre-apellido" required>
+                    </p>
+                    <p>
+                        <label>Domicilio</label>
+                        <input type="text" name="domicilio" required>
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email" required>
+                    </p>
+                    <p>
+                        <label>Teléfono</label>
+                        <input type="tel" name="telefono" required>
+                    </p>
+                    <p>
+                        <label>Marca de tu vehículo</label>
+                        <input type="text" name="marca" required>
+                    </p>
+                    <p>
+                        <label>Año</label>
+                        <input type="text" name="año" required>
+                    </p>
+                    <p>
+                        <label>Modelo (textual de la cedula)</label>
+                        <input type="text" name="modelo" required>
+                    </p>
+                    <p>
+                        <label>Cantidad de Puertas</label>
+                        <input type="text" name="puertas" required>
+                    </p>
+
+                    <div class="box block">
+                        <label>Tipo de Cobertura</label>
+                        <select required>
+                            <option value="">Seleccione una cobertura</option>
+                            <option value="cober-1">Cobertura Básica</option>
+                            <option value="cober-2">Tercero Completo</option>
+                            <option value="cober-3">Todo Riesgo</option>
+                        </select>
+                    </div>
+
+                    <p class="block">
+                        <label>Mensaje</label>
+                        <textarea name="mensaje" rows="3"></textarea> 
+                    </p>
+                    <p class="block">
+                        <button type="submit">Enviar</button>
+                    </p>
+
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+            </div>
+            <div class="contenedor-info">
+                <h4>Automotores</h4>
+                <p>Somos una de las principales empresas en la comercialización de seguros para automotores. Nuestros
+                    productos se caracterizan por una serie de ventajas y servicios diferenciales que nos posicionan
+                    entre las mejores opciones del mercado.Contamos con una cobertura de acuerdo a sus necesidades</p>
+                <ul class="coberturas">
+                    <li><img src="../img/icons8-punto-y-final-30.png" alt=""> Cobertura Básica</li>
+                    <li><img src="../img/icons8-punto-y-final-30.png" alt="">Terceros Completo</li>
+                    <li><img src="../img/icons8-punto-y-final-30.png" alt="">Todo Riesgo</li>
+                </ul>
+                <ul>
+                    <li><img src="../img/marcador-50.png" alt="" style="color:white;">Granadero Baigorria.Sta Fe</li>
+                    <li><img src="../img/teléfono-64.png" alt="">+543412792448</li>
+                    <li><img src="../img/mensaje-relleno-50.png" alt="">jsuarezpas@gmail.com</li>
+                </ul>
+
+                <p id="js"><span>J.S*</span>Productor de Seguros</p>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
