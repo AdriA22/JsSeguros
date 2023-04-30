@@ -83,7 +83,7 @@ body{
     height: 100vh;
 }
 .section-padding{
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 #nosotros{
@@ -143,14 +143,16 @@ body{
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .carousel-caption{
-        bottom: 370px;
+        bottom: 90px;
     }
     .carousel-caption p{
         width: 100%;
+        /* line-height: 1.6;
+        font-size: 30px; */
     }
-    /* .card{
+    .card{
         margin-bottom: 100px;
-    } */
+    }
 }
 
 @media only screen and (max-width: 767px){
@@ -158,7 +160,7 @@ body{
         text-align: center;    
     }
     #logo{
-        width: 550px;
+        width: 600px;
         height: 200px;
     }
     .carousel-caption{
@@ -173,8 +175,7 @@ body{
     .carousel-caption p{
         width: 100%;
         line-height: 1.6;
-        font-size: 30px;
-        
+        font-size: 25px;
     }
     .section-padding{
         padding-top: 100px;
