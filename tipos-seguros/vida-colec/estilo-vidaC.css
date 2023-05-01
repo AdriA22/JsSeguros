@@ -13,17 +13,18 @@ body {
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0,3px,0,3px;
+    padding: 0, 3px, 0, 3px;
 }
 
 .logo {
     text-align: center;
     font-size: 2em;
     font-weight: normal;
-    text-shadow:  2px 2px 3px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 
 }
-.logo img{
+
+.logo img {
     width: 25px;
     height: 25px;
 }
@@ -132,12 +133,14 @@ li img {
     width: 20px;
     margin-right: 15px;
 }
+
 #js {
-       
+
     text-align: center;
     font-size: 25px;
 }
-span{
+
+span {
     color: #ffc107;
 }
 
@@ -147,7 +150,8 @@ span{
     body {
         padding: 0 4rem;
     }
-    .content{
+
+    .content {
         padding: 1.5em;
     }
 
@@ -189,11 +193,12 @@ span{
     }
 
     #js {
-       
+
         text-align: center;
         font-size: 25px;
     }
-    span{
+
+    span {
         color: #ffc107;
     }
 }
