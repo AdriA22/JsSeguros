@@ -5,7 +5,9 @@
 body {
     background: f1fbff;
 }
-
+.bg{
+    background-color: #212529 !important;
+}
 .container-wpp {
     position: fixed;
     z-index: 999;
@@ -170,6 +172,22 @@ ul {
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.7);
 }
 
+#video-section .modal-content {
+    min-width: 300px;
+}
+
+#video-section .modal-content iframe {
+    width: 350px;
+    height: 560px;
+}
+.modal-content{
+    
+    width: 385px !important;
+    height: 625px !important;    
+}
+.modal-body{
+    padding: 10px !important;
+}
 #matricula {
     margin-bottom: 0;
 }
@@ -217,11 +235,20 @@ ul {
         width: 100% !important;
     }
 
+    .otras-cob {
+        display: flex;
+    }
+
+
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+   
     .navbar-nav {
         text-align: center;
+    }
+    .navbar{
+        width: 412px;
     }
 
     #logo {
@@ -229,10 +256,8 @@ ul {
         height: 200px;
     }
 
-    .carousel-caption {
-        
-        margin: 0px;
-        
+    .carousel-caption {        
+        margin: 0px;        
     }
 
     .carousel-caption h5 {
@@ -272,6 +297,9 @@ ul {
 
     .card-otras {
         width: 100% !important;
+    }
+    .otras-cob {
+        display: flex;
     }
 
     ul {
