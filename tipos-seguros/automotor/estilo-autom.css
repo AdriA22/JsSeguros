@@ -152,6 +152,7 @@ select, option{
        
     text-align: center;
     font-size: 25px;
+    padding: 30px;
 }
 span{
     color: #ffc107;

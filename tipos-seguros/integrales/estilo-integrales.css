@@ -105,11 +105,11 @@ body {
 
 .contenedor-info p {
     text-align: justify;
-    padding: 2em;
+    padding: 1em;
     line-height: 30px;
     font-size: 20px;
     font-weight: normal;
-}
+} 
 
 .contenedor-info h4 {
     text-align: center;
@@ -117,6 +117,8 @@ body {
     font-weight: normal;
     color: #ffc107;
     margin: 0;
+    padding-top: 50px !important;
+    padding-bottom: 5px !important;
 }
 
 .contenedor-info ul li {
@@ -134,6 +136,7 @@ li img {
        
     text-align: center;
     font-size: 25px;
+    padding: 30px;
 }
 span{
     color: #ffc107;

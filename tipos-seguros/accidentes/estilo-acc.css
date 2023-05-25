@@ -133,14 +133,12 @@ li img {
 
     text-align: center;
     font-size: 25px;
-}
+    padding: 30px;
+} 
 
 span {
     color: #ffc107;
 }
-
-
-
 
 @media (min-width: 800px) {
     body {
