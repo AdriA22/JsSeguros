@@ -67,32 +67,6 @@ body {
     padding-top: 30px !important;
 }
 
-/* .contenedor-form form button,
-.contenedor-form form input,
-.contenedor-form form textarea {
-    width: 100%;
-    padding: 0.7em;
-    border: none;
-    background: none;
-    outline: 0;
-    border-bottom: 2px solid #ffc107;
-    font-size: 1.1em;
-} */
-
-/* .contenedor-form form button {
-    background: #ffc107;
-    border: 0px;
-    font-size: 1.25em;
-    padding: 0.6em;
-    border-radius: 7px;
-}
-
-.contenedor-form form button:hover,
-.contenedor-form form button:focus {
-    background: #fecd37;
-    outline: 0;
-} */
-
 .contenedor-info {
     background: #212529;
     color: white;
