@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Mono:wght@100&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="estilo-otras-cob.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
 <body>
@@ -23,7 +24,7 @@
             <div class="contenedor-form">
                 <h3>Contáctanos</h3>
                 <hr size=2 color="#ffc107">
-                <form action="https://formsubmit.co/adriasuarez79@gmail.com" method="POST">
+                <form action="https://formsubmit.co/jsuarezpas@gmail.com" method="POST">
                     <p>
                         <label>Nombre y Apellido</label>
                         <input type="text" name="nombre-apellido" required>
@@ -57,9 +58,14 @@
                         <textarea name="mensaje" rows="3"></textarea>
                     </p>
                     <p class="block">
-                        <button type="submit">Enviar</button>
+                        <button onclick="enviar()" type="submit">Enviar</button>
+                        <script type="text/javascript">
+                            function enviar(){
+                                swal('Mensaje Enviado');
+                            }
+                        </script>
                     </p>
-                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                    <input type="hidden" name="_next" value="https://www.javisuarezseguros.com">
                     <input type="hidden" name="_captcha" value="false">
                 </form>
             </div>
@@ -70,18 +76,18 @@
                 </p>
                 <hr size=2 color="#ffc107">
                 <ul>
-                    <li><img src="../img/marcador-50.png" alt="">Granadero Baigorria. Sta Fe</li>
-                    <li><img src="../img/teléfono-64.png" alt="">+543412792448</li>
-                    <li><img src="../img/mensaje-relleno-50.png" alt="">jsuarezpas@gmail.com</li>
+                    <li><img src="../img/marcador-50.png" alt="">Granadero Baigorria.Sta Fe.</li>
+                    <li><img src="../img/teléfono-64.png" alt="">+54 9 3412792448</li>
+                    <li><img src="../img/mensaje-relleno-50.png" alt="">info@javisuarezseguros.com</li>
                 </ul>
                 <hr size=2 color="#ffc107">
-                <p id="js"><span>J.E.S*</span>Productor Asesor de Seguros</p>
+                <p id="js"><span>J.E.S </span>Productor Asesor de Seguros</p>
 
             </div>
         </div>
     </div>
 
 
-</body>
+</body>  
 
 </html>
