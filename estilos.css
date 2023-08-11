@@ -204,8 +204,13 @@ ul {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar{
+        width: 100%;
+    }
+
     .carousel-caption {
         bottom: 90px;
+        padding-bottom: 100px !important;
     }
 
     .carousel-caption p {
@@ -224,6 +229,15 @@ ul {
     .carousel-inner{
         height: 415px;
     }
+    #imagen {
+        height: 500px;
+    }
+    #logo {
+        width: 450px;
+        height: 200px;
+        padding-top: 0px;
+    
+    }
     .card {
         margin-bottom: 100px;
     }
@@ -235,22 +249,32 @@ ul {
     .otras-cob {
         display: flex;
     }
+    .icon-ss {
+        width: 200px;
+    
+    }
 
 
 }
 
-@media only screen and (min-width: 375px) and (max-width: 767px) {
+@media only screen and (min-width: 420px) and (max-width: 767px) {
    
     .navbar-nav {
         text-align: center;
     }
     .navbar{
-        width: 412px;
+        width: 100%;        
+    }
+    .navbar-toggler {
+        font-size: 1.0rem !important;
+    }
+    #imagen {
+        height: 450px;
     }
 
     #logo {
-        width: 600px;
-        height: 200px;
+        width: 450px;
+        height: 180px;
     }
 
     .carousel-caption {        
@@ -270,16 +294,15 @@ ul {
         line-height: 1.6;
         font-size: 25px;
     }
+    .carousel-caption {
+        bottom: 150px !important;
+    }
     .carousel-inner{
         height: 400px;
         padding-top: 10px;
+        width: 100%;
     }
-    #logo{
-        padding: 10px;
-        width: 500px;
-        height: 200px;
-    }
-
+   
     .section-padding {
         padding-top: 100px;
     }
@@ -298,17 +321,48 @@ ul {
     .otras-cob {
         display: flex;
     }
-
-    ul {
-        padding: 30px;
-        text-align: left;
-    }
-    #contac {
-        text-align: center;
-    }
-    #redes{
-        text-align: center;
     
+
+}
+@media only screen and (min-width: 300px) and (max-width: 419px) {
+
+    .navbar{
+        width: 95%;
+        height: 80px;
+    }
+    .container #nombre {
+        font-size: 15px !important;
+    }
+    .navbar-toggler {
+        font-size: 1.0rem !important;
+    }
+   
+    #imagen {
+        height: 320px !important;
     }
 
+    #logo {
+        width: 280px;
+        height: 130px;
+    }
+    .carousel-caption p{
+        font-size: 20px !important;
+        width: 100%;
+    }
+   
+    .carousel-caption {
+        bottom: 180px !important;
+    }
+    .carousel-inner {
+        height: 322px;
+    }
+    .section-padding {
+        padding-top: 90px;
+    }
+    #nosotros {       
+        padding-top: 55px;
+    }
+    .card{
+        margin-top: 15px;
+    }
 }
